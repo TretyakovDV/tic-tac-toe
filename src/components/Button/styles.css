@@ -1,0 +1,9 @@
+.button {
+  margin-right: 40px;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: default;
+}

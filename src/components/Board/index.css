@@ -1,0 +1,88 @@
+.board {
+  display: grid;
+  grid-template: repeat(3, 60px) / repeat(3, 60px);
+  margin: 20px 0;
+  position: relative;
+  width: 180px;
+}
+
+.board.solution-0:after {
+  content: "";
+  width: 80%;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.board.solution-1:after {
+  content: "";
+  width: 80%;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.board.solution-2:after {
+  content: "";
+  width: 80%;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.board.solution-3:after {
+  content: "";
+  width: 3px;
+  height: 80%;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+}
+.board.solution-4:after {
+  content: "";
+  width: 3px;
+  height: 80%;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(-50%);
+}
+.board.solution-5:after {
+  content: "";
+  width: 3px;
+  height: 80%;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+}
+.board.solution-6:after {
+  content: "";
+  width: 3px;
+  height: 110%;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(-50%) rotate(-45deg);
+}
+.board.solution-7:after {
+  content: "";
+  width: 3px;
+  height: 110%;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(-50%) rotate(45deg);
+}
