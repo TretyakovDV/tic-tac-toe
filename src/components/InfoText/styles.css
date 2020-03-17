@@ -1,9 +1,10 @@
 .info-text {
-    font-size: 21px;
-    margin: 0;
+  font-size: 21px;
+  margin: 0;
 }
-.text {}
+.text {
+}
 
 .value {
-    color: red;
+  color: red;
 }
