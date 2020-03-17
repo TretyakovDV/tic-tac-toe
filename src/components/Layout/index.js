@@ -23,7 +23,7 @@ export const Layout = ({
       <Button disabled={turn === 0 || winner} onClick={handleStepBack}>
         &#8592; Step Back
       </Button>
-      <Button disabled={!winner} onClick={handleAnew}>
+      <Button disabled={!(turn === 9 || winner)} onClick={handleAnew}>
         ⟳ Anew
       </Button>
       <Button
